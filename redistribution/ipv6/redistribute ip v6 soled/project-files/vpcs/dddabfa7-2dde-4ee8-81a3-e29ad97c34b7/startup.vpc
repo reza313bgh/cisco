@@ -1,0 +1,2 @@
+set pcname server
+ip 2001:db8:100:100::100/64

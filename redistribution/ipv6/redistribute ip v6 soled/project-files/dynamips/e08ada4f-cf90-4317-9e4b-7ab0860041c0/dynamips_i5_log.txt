@@ -1,0 +1,16 @@
+Dec 31 23:03:57.102 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 31 23:03:57.103 HYPERVISOR: Started on IP = localhost, TCP port = 52579.
+Dec 31 23:03:57.111 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 31 23:03:57.112 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/cisco/redistribution/ipv6/redistribute ip v6 soled/project-files/dynamips 
+Dec 31 23:03:57.112 GENERAL: working_dir=/run/media/reza/learning/cisco/redistribution/ipv6/redistribute ip v6 soled/project-files/dynamips
+Dec 31 23:03:57.112 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 31 23:03:58.737 HYPERVISOR: exec_cmd: nio create_udp udp-3c91c4c9-ba3c-44a4-b067-df8c62148714 10042 127.0.0.1 10043 
+Dec 31 23:03:58.737 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-3c91c4c9-ba3c-44a4-b067-df8c62148714 
+Dec 31 23:03:58.750 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-3c91c4c9-ba3c-44a4-b067-df8c62148714 1 
+Dec 31 23:03:58.781 HYPERVISOR: exec_cmd: nio create_udp udp-b167af80-760d-48de-9ebf-bf3c015286b0 10047 127.0.0.1 10046 
+Dec 31 23:03:58.781 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b167af80-760d-48de-9ebf-bf3c015286b0 
+Dec 31 23:03:58.790 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b167af80-760d-48de-9ebf-bf3c015286b0 1 
+Dec 31 23:04:49.324 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Dec 31 23:04:49.349 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 31 23:04:49.667 HYPERVISOR: Stopped.
+Dec 31 23:04:49.667 GENERAL: reset done.

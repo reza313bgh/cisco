@@ -1,0 +1,16 @@
+Dec 30 16:00:25.175 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 30 16:00:25.175 HYPERVISOR: Started on IP = localhost, TCP port = 60855.
+Dec 30 16:00:25.184 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 30 16:00:25.185 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips 
+Dec 30 16:00:25.185 GENERAL: working_dir=/run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips
+Dec 30 16:00:25.185 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Dec 30 16:00:26.875 HYPERVISOR: exec_cmd: nio create_udp udp-2693c7a1-6211-47a3-88b0-d8e9d9bdff21 10029 127.0.0.1 10028 
+Dec 30 16:00:26.875 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-2693c7a1-6211-47a3-88b0-d8e9d9bdff21 
+Dec 30 16:00:26.883 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-2693c7a1-6211-47a3-88b0-d8e9d9bdff21 1 
+Dec 30 16:00:29.093 HYPERVISOR: exec_cmd: nio create_udp udp-44ead94b-f6ed-4eb4-9805-91226f5c9aa9 10111 127.0.0.1 10110 
+Dec 30 16:00:29.094 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-44ead94b-f6ed-4eb4-9805-91226f5c9aa9 
+Dec 30 16:00:29.115 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-44ead94b-f6ed-4eb4-9805-91226f5c9aa9 1 
+Dec 30 16:02:03.567 HYPERVISOR: exec_cmd: ethsw delete Switch4 
+Dec 30 16:02:03.592 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 30 16:02:03.785 HYPERVISOR: Stopped.
+Dec 30 16:02:03.786 GENERAL: reset done.

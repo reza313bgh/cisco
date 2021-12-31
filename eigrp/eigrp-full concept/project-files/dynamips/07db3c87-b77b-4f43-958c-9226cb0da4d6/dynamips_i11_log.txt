@@ -1,0 +1,44 @@
+Dec 30 16:00:25.210 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 30 16:00:25.210 HYPERVISOR: Started on IP = localhost, TCP port = 42519.
+Dec 30 16:00:25.219 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 30 16:00:25.219 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips 
+Dec 30 16:00:25.219 GENERAL: working_dir=/run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips
+Dec 30 16:00:25.219 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips/0868314f-9b8a-43a9-a866-c7303b47dcb2 
+Dec 30 16:00:25.219 GENERAL: working_dir=/run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips/0868314f-9b8a-43a9-a866-c7303b47dcb2
+Dec 30 16:00:25.219 HYPERVISOR: exec_cmd: vm create server-1 10 c7200 
+Dec 30 16:00:25.220 VM: VM server-1 created.
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm set_con_tcp_port server-1 5030 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: c7200 get_mac_addr server-1 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 0 0 C7200-IO-FE 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm set_disk0 server-1 0 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.220 HYPERVISOR: exec_cmd: vm set_idle_pc server-1 0x60638940 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm set_ios server-1 /home/reza/GNS3/images/IOS/c7200-advipservicesk9-mz.150-1.M2.image 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: c7200 set_mac_addr server-1 ca0a.216c.0000 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm set_nvram server-1 512 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm set_ram server-1 512 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm slot_remove_binding server-1 0 0 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.221 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 0 0 C7200-IO-2FE 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 1 0 PA-2FE-TX 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 2 0 PA-2FE-TX 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 3 0 PA-GE 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:00:25.222 HYPERVISOR: exec_cmd: vm slot_add_binding server-1 4 0 PA-GE 
+Dec 30 16:00:28.563 HYPERVISOR: exec_cmd: nio create_udp udp-d1774080-cae6-4428-978d-f8d1229b4c20 10102 127.0.0.1 10103 
+Dec 30 16:00:28.775 HYPERVISOR: exec_cmd: vm slot_add_nio_binding server-1 3 0 udp-d1774080-cae6-4428-978d-f8d1229b4c20 
+Dec 30 16:00:28.776 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:02:03.549 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:02:03.549 HYPERVISOR: exec_cmd: vm extract_config server-1 
+Dec 30 16:02:03.772 HYPERVISOR: exec_cmd: vm get_status server-1 
+Dec 30 16:02:03.772 HYPERVISOR: exec_cmd: vm extract_config server-1 
+Dec 30 16:02:03.772 HYPERVISOR: exec_cmd: vm delete server-1 
+Dec 30 16:02:03.772 VM: VM server-1 destroyed.
+Dec 30 16:02:03.773 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 30 16:02:03.822 HYPERVISOR: Stopped.
+Dec 30 16:02:03.822 GENERAL: reset done.

@@ -1,0 +1,26 @@
+<svg width="360" height="450"><text font-family="TypeWriter" font-size="10.0" font-weight="bold" fill="#000000" fill-opacity="1.0">                         objectes:
+1---&gt; after assigning ip to devices ----&gt; config
+basic EIGRP configure
+2---&gt; assign network to EIGRP
+3---&gt; select passive inteface
+4---&gt; set Router-id fo all routers 
+5---&gt; activating authentication on EIGRP
+      use key-chain and set life time for key-chain
+6---&gt; configure hello-interval and hold-time
+7---&gt; configure EIGRP to use Maximum 40% of
+        the link
+8---&gt; reduce active-timer-eigrp
+
+9--&gt; configure unequl loadbalancing 
+10--&gt; configure equal loadbalancing
+11--&gt; default-route propagation in R3
+12--&gt; summerazation network in R12
+13--&gt; inactive auto-summery in all routers
+14--&gt; EIGRP stup in in R6 , R7
+15--&gt; EIGRP filltering ----&gt;
+     pc-1-------&gt; can see serrver-1--&gt; ip-prefix-list
+     pc-2-------&gt; can see server -2---&gt; Route-map
+16--&gt; static neighborship 
+         R9-----R12
+         R12---R13
+         R13---R5</text></svg>

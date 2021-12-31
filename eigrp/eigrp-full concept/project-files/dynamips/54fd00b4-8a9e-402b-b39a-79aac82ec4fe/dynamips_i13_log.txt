@@ -1,0 +1,55 @@
+Dec 30 16:00:25.258 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 30 16:00:25.258 HYPERVISOR: Started on IP = localhost, TCP port = 35359.
+Dec 30 16:00:25.267 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 30 16:00:25.267 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips 
+Dec 30 16:00:25.268 GENERAL: working_dir=/run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: hypervisor working_dir /run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips/7354c54a-e080-404f-af10-a44e5a3151e4 
+Dec 30 16:00:25.268 GENERAL: working_dir=/run/media/reza/learning/project/ospf/ospf-full concept/project-files/dynamips/7354c54a-e080-404f-af10-a44e5a3151e4
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: vm create R10 12 c7200 
+Dec 30 16:00:25.268 VM: VM R10 created.
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 5032 
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: c7200 get_mac_addr R10 
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-FE 
+Dec 30 16:00:25.268 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x60638940 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm set_ios R10 /home/reza/GNS3/images/IOS/c7200-advipservicesk9-mz.150-1.M2.image 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: c7200 set_mac_addr R10 ca0c.2b68.0000 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm set_nvram R10 512 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm set_ram R10 512 
+Dec 30 16:00:25.269 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_remove_binding R10 0 0 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-2FE 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_add_binding R10 1 0 PA-2FE-TX 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_add_binding R10 2 0 PA-2FE-TX 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_add_binding R10 3 0 PA-GE 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.270 HYPERVISOR: exec_cmd: vm slot_add_binding R10 4 0 PA-GE 
+Dec 30 16:00:25.271 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:25.271 HYPERVISOR: exec_cmd: vm slot_add_binding R10 5 0 PA-4T+ 
+Dec 30 16:00:28.147 HYPERVISOR: exec_cmd: nio create_udp udp-7bdf4ba0-63a9-48e5-a6a2-f494358d1951 10078 127.0.0.1 10079 
+Dec 30 16:00:28.358 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 5 0 udp-7bdf4ba0-63a9-48e5-a6a2-f494358d1951 
+Dec 30 16:00:28.358 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:28.465 HYPERVISOR: exec_cmd: nio create_udp udp-dce1656b-082c-4791-83c1-0be6e18f01e1 10088 127.0.0.1 10089 
+Dec 30 16:00:28.465 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 5 1 udp-dce1656b-082c-4791-83c1-0be6e18f01e1 
+Dec 30 16:00:28.466 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:28.510 HYPERVISOR: exec_cmd: nio create_udp udp-c6b6040b-5072-46d7-86b3-75754847b4e9 10094 127.0.0.1 10095 
+Dec 30 16:00:28.511 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 3 0 udp-c6b6040b-5072-46d7-86b3-75754847b4e9 
+Dec 30 16:00:28.511 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:00:28.558 HYPERVISOR: exec_cmd: nio create_udp udp-e97328da-713b-4073-be04-376a85ca9361 10100 127.0.0.1 10101 
+Dec 30 16:00:28.559 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 4 0 udp-e97328da-713b-4073-be04-376a85ca9361 
+Dec 30 16:00:28.559 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:02:03.550 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:02:03.551 HYPERVISOR: exec_cmd: vm extract_config R10 
+Dec 30 16:02:03.857 HYPERVISOR: exec_cmd: vm get_status R10 
+Dec 30 16:02:03.858 HYPERVISOR: exec_cmd: vm extract_config R10 
+Dec 30 16:02:03.859 HYPERVISOR: exec_cmd: vm delete R10 
+Dec 30 16:02:03.860 VM: VM R10 destroyed.
+Dec 30 16:02:03.860 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 30 16:02:03.869 HYPERVISOR: Stopped.
+Dec 30 16:02:03.869 GENERAL: reset done.
